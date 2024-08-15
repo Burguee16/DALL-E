@@ -58,6 +58,12 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Fonts\alata-regular.ttf" />
+	  <None Remove="Resources\Images\fotohector.jpg" />
+	  <None Remove="Resources\Images\fotohenry.jpg" />
+	  <None Remove="Resources\Images\fotomady.jpg" />
+	  <None Remove="Resources\Images\hectorgenero.jpg" />
+	  <None Remove="Resources\Images\henrygenero.jfif" />
+	  <None Remove="Resources\Images\madygenero.jfif" />
 	</ItemGroup>
 
 	<ItemGroup>

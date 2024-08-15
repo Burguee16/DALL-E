@@ -14,10 +14,7 @@ public partial class DashBoardview : ContentPage
 		BindingContext = this;
 	}
 
-    private void InitializeComponent()
-    {
-        throw new NotImplementedException();
-    }
+    
 
     private void LoadData()
 	{
@@ -48,19 +45,19 @@ public partial class DashBoardview : ContentPage
         {
             new GeneratedImages
             {
-                ImagePath = "hectorgenero",
+                ImagePath = "hectorgenero.jpg",
                 MainKeyword = "Mountains",
                 Keywords = new List<string>{"Landscape, photorealistic, dawn, mountains"}
             },
             new GeneratedImages
             {
-                ImagePath = "madygenero",
+                ImagePath = "madygenero.jfif",
                 MainKeyword = "Robot",
                 Keywords = new List<string>{"AI, robotic, human, ligth, metal"}
             },
             new GeneratedImages
             {
-                ImagePath = "hendrygenero",
+                ImagePath = "hendrygenero.jfif",
                 MainKeyword = "Castle",
                 Keywords = new List<string>{"Epic, hill, mountain, tress, blue sky"}
             }
