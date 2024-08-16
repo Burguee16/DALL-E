@@ -57,7 +57,7 @@ public partial class DashBoardview : ContentPage
             },
             new GeneratedImages
             {
-                ImagePath = "hendrygenero.jfif",
+                ImagePath = "henrygenero.jfif",
                 MainKeyword = "Castle",
                 Keywords = new List<string>{"Epic, hill, mountain, tress, blue sky"}
             }
