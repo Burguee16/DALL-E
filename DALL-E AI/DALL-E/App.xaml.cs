@@ -8,7 +8,7 @@ namespace DALL_E
         {
             InitializeComponent();
 
-            MainPage = new DashBoardview();
+            MainPage = new GenerationOptionsView();
         }
     }
 }
