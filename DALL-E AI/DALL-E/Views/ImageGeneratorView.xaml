@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DALL_E.Views.ImageGeneratorView"
+             Title="ImageGeneratorView"
+             BackgroundColor="#101226">
+    <Grid Margin="25,25,0,0" RowDefinitions=".2*,.6*,.2*">
+        <VerticalStackLayout VerticalOptions="Center">
+            <Label FontFamily="alata"
+                   FontSize="30"
+                   Text="Picture&#10;Generated"
+                   TextColor="White"/>
+            <Label Margin="0,10,0,0"
+                   FontSize="20"
+                   Text="Time spent 30 seconds"
+                   TextColor="#ACB1BB"/>
+        </VerticalStackLayout>
+        <Border Grid.Row="1"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="0">
+            <Image Aspect="AspectFill" Source="henrygenero.jfif"/>
+        </Border>
+    </Grid>
+</ContentPage>

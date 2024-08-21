@@ -8,7 +8,7 @@ namespace DALL_E
         {
             InitializeComponent();
 
-            MainPage = new GenerationOptionsView();
+            MainPage = new ImageGeneratorView();
         }
     }
 }
