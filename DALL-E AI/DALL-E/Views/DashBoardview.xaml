@@ -145,6 +145,7 @@
                 StrokeShape="RoundRectangle 55,0,0,0"
                 WidthRequest="250">
             <Button BackgroundColor="#E8FFE8"
+                    Clicked="Button_Clicked"
                     FontFamily="alata"
                     FontSize="16"
                     Text="Create New Image"

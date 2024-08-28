@@ -26,6 +26,7 @@
                             StrokeShape="RoundRectangle 5,5,5,5"
                             StrokeThickness="0"/>
                     <Label FontSize="20"
+                           x:Name="lblTimer"
                            Text="0"
                            TextColor="#ACB1BB"
                            VerticalOptions="Center"/>
@@ -61,11 +62,11 @@
             Source="robot.json"/>
         <Button Grid.Row ="2"
                 x:Name="btnFinish"
-                Clicked="btnFinish_Clicked"
+                Clicked="btnFinish_Clicked_1"
                 BackgroundColor="#E8FF8E"
                 CornerRadius="35"
                 FontSize="25"
-                Scale="0.1"
+                Scale="0"
                 HeightRequest="75"
                 HorizontalOptions="Center"
                 Text="Finish"

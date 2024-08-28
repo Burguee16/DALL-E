@@ -4,11 +4,12 @@ namespace DALL_E
 {
     public partial class App : Application
     {
-        public App()
+        public  App()
         {
             InitializeComponent();
+            MainPage = new NavigationPage(new DashBoardview());
+            
 
-            MainPage = new ImageGeneratorView();
         }
     }
 }

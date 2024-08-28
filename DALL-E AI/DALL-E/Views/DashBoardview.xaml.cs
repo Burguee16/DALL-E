@@ -5,6 +5,7 @@ namespace DALL_E.Views;
 
 public partial class DashBoardview : ContentPage
 {
+    
 	public ObservableCollection<Profile> Profiles { get; set; }
 	public ObservableCollection<GeneratedImages> GeneratedImages	{ get; set; }
 	public DashBoardview()
@@ -63,4 +64,11 @@ public partial class DashBoardview : ContentPage
             }
         };
 	}
+
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+
+        await Navigation.PushAsync(new GenerationOptionsView());
+
+    }
 }

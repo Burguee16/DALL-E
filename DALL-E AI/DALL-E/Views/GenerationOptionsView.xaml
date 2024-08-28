@@ -89,6 +89,7 @@
                     TextColor="White"/>
         </Border>
         <Button Grid.Row="5"
+                Clicked="Button_Clicked"
                 BackgroundColor="#98C0FE"
                 CornerRadius="25"
                 HorizontalOptions="Center"

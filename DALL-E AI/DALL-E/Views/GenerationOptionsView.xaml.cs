@@ -31,4 +31,9 @@ public partial class GenerationOptionsView : ContentPage
 			new ArtStyle() { Name = "Mady", ImageUrl = "dotnet_bot.png" }
 		};
 	}
+
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new ImageGeneratorView());
+    }
 }
